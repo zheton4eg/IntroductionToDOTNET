@@ -1,0 +1,7 @@
+C:\Users\zheka\Source\Repos\zheton4eg\IntroductionToDOTNET\IntroductionToDOTNET\bin\Debug\IntroductionToDOTNET.exe.config
+C:\Users\zheka\Source\Repos\zheton4eg\IntroductionToDOTNET\IntroductionToDOTNET\bin\Debug\IntroductionToDOTNET.exe
+C:\Users\zheka\Source\Repos\zheton4eg\IntroductionToDOTNET\IntroductionToDOTNET\bin\Debug\IntroductionToDOTNET.pdb
+C:\Users\zheka\Source\Repos\zheton4eg\IntroductionToDOTNET\IntroductionToDOTNET\obj\Debug\IntroductionToDOTNET.csproj.AssemblyReference.cache
+C:\Users\zheka\Source\Repos\zheton4eg\IntroductionToDOTNET\IntroductionToDOTNET\obj\Debug\IntroductionToDOTNET.csproj.CoreCompileInputs.cache
+C:\Users\zheka\Source\Repos\zheton4eg\IntroductionToDOTNET\IntroductionToDOTNET\obj\Debug\IntroductionToDOTNET.exe
+C:\Users\zheka\Source\Repos\zheton4eg\IntroductionToDOTNET\IntroductionToDOTNET\obj\Debug\IntroductionToDOTNET.pdb
