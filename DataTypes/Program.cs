@@ -40,25 +40,7 @@ namespace DataTypes
 			Console.WriteLine(sbyte.MinValue);
 			Console.WriteLine(sbyte.MaxValue);
 
-			double a, b;
-			char s;
-			while (true)
-			{	
-					Console.Write("Введите выражение через ENTER: ");
-					a = double.Parse(Console.ReadLine());
-					s = char.Parse(Console.ReadLine());
-					b = double.Parse(Console.ReadLine());
-					switch (s)
-					{
-						case '+': Console.WriteLine(a + b); break;
-						case '-': Console.WriteLine(a - b); break;
-						case '*': Console.WriteLine(a * b); break;
-						case '/': Console.WriteLine(a / b); break;
-						default:
-						Console.WriteLine("Ошибка, попробуйте снова!");
-						continue;
-				    }
-			}
+			
 		}
 	}
 }
