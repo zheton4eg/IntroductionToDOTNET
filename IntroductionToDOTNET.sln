@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factoreal", "Factoreal\Fact
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake", "Snake\Snake.csproj", "{58AE5CC6-CD26-4AD5-A699-0E08E47E5F5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "ConsoleApp1\Array.csproj", "{00FE113F-C85D-4A45-ADFA-3F3E2286D423}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{58AE5CC6-CD26-4AD5-A699-0E08E47E5F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58AE5CC6-CD26-4AD5-A699-0E08E47E5F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58AE5CC6-CD26-4AD5-A699-0E08E47E5F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00FE113F-C85D-4A45-ADFA-3F3E2286D423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00FE113F-C85D-4A45-ADFA-3F3E2286D423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00FE113F-C85D-4A45-ADFA-3F3E2286D423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00FE113F-C85D-4A45-ADFA-3F3E2286D423}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
