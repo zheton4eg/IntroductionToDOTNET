@@ -1,5 +1,5 @@
-﻿#define ARRAYS_1
-//#define ARRAYS_2
+﻿//#define ARRAYS_1
+#define ARRAYS_2
 //#define JAGGED_ARRAY
 using System;
 using System.Collections.Generic;
@@ -66,7 +66,7 @@ namespace ConsoleApp1
 
 			//Сортировка массива
 
-			for (int i = 1; i < arr.Length; i++)
+			for (int i = 0; i < arr.Length; i++)
 			{
 				for (int j = i; j < arr.Length; j++)
 				{
@@ -114,15 +114,44 @@ namespace ConsoleApp1
 			{
 				for (int j = 0; j < i_arr_2.GetLength(1); j++)
 				{
-					Console.Write(i_arr_2[i, j] + "\t");
+					Console.Write(i_arr_2[i,j] + "\t");
 				}
 				Console.WriteLine();	
 			}
-			foreach (int i in i_arr_2)
-			{
-				Console.Write(i+"\t");
-			}
 			Console.WriteLine();
+			
+			//Поиск наименьшего элемента в массиве:
+			for (int i = 0; i < i_arr_2.GetLength(0); i++)
+			{
+				for (int j = 0; j < i_arr_2.GetLength(0); j++)
+				{
+					for (int k = j; k < i_arr_2.GetLength(1)-1; k++)
+					{
+						
+							int buffer = i_arr_2[i, k + 1];
+							if (i_arr_2[i, k + 1] > i_arr_2[i, j])
+							{
+								i_arr_2[i, k + 1] = i_arr_2[i, j];
+								i_arr_2[i, j] = buffer;
+							}
+						
+					}
+					
+				}
+			}
+			for (int i = 0; i < i_arr_2.GetLength(0); i++)
+			{
+				for (int j = 0; j < i_arr_2.GetLength(1); j++)
+				{
+					Console.Write(i_arr_2[i, j] + "\t");
+				}
+				Console.WriteLine();
+			}
+			/*foreach (int i in i_arr_2)
+				{
+					Console.Write(i + "\t");
+				}
+				Console.WriteLine("\t");*/
 #endif
 #if JAGGED_ARRAY
 			int[][] arr_jagged = new int[][]
@@ -142,7 +171,7 @@ namespace ConsoleApp1
 				Console.WriteLine(); 
 				}
 #endif
-			
+
 		}
-	}
+		}
 }
