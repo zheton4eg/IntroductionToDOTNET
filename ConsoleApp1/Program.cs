@@ -1,4 +1,4 @@
-﻿//#define ARRAYS_1
+﻿#define ARRAYS_1
 #define ARRAYS_2
 //#define JAGGED_ARRAY
 using System;
@@ -78,7 +78,8 @@ namespace ConsoleApp1
 					}
 				}
 			}
-			  //Вывод массива в обратном порядке
+			//Вывод массива в обратном порядке
+			Console.Write("\tСортировка и вывод массива в обратном порядке:\t");
 			for (int i = arr.Length-1; i >= 0; i--)
 			{
 				Console.Write(arr[i] + "\t");
@@ -120,11 +121,12 @@ namespace ConsoleApp1
 			}
 			Console.WriteLine();
 			
-			//Поиск наименьшего элемента в массиве:
+			//Сортировка массива:
 			for (int i = 0; i < i_arr_2.GetLength(0); i++)
 			{
 				for (int j = 0; j < i_arr_2.GetLength(0); j++)
 				{
+
 					for (int k = j; k < i_arr_2.GetLength(1)-1; k++)
 					{
 						
