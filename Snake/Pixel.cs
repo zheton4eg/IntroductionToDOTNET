@@ -10,7 +10,7 @@ namespace Snake
 	{
 		private const char PixelChar = '█';
 
-		public Pixel(int x, int y, ConsoleColor color, int pixelSize=3)
+		public Pixel(int x, int y, ConsoleColor color, int pixelSize=1)
 		{
 			X = x;
 			Y = y;
@@ -26,6 +26,7 @@ namespace Snake
 
 		public void Draw()
 		{
+			Console.ForegroundColor= Color;	
 			for (int x = 0; x < PixelSize; x++)
 			{
 				for (int y = 0; y < PixelSize; y++)
